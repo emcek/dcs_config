@@ -17,25 +17,61 @@ local diff = {
 			},
 		},
 		["a2003cdnil"] = {
-			["name"] = "Flight Control Rudder",
-			["removed"] = {
+			["changed"] = {
 				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0.1,
+						},
+						["deadzone"] = 0,
+						["invert"] = false,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
 					["key"] = "JOY_RZ",
 				},
 			},
+			["name"] = "Flight Control Rudder",
 		},
 		["a2087cdnil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_X",
-				},
-			},
 			["name"] = "Flight Control Collective",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_Z",
 				},
 			},
+		},
+		["a2101cdnil"] = {
+			["added"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0,
+						["invert"] = true,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
+					["key"] = "JOY_X",
+				},
+				[2] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0,
+						["invert"] = true,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
+					["key"] = "JOY_Y",
+				},
+			},
+			["name"] = "Wheel Brake",
 		},
 	},
 	["keyDiffs"] = {
