@@ -1,5 +1,5 @@
 #This file can be manually edited using any ASCII editor.
-#File created on 06/04/2018 00:00:00 06/04/2018 20:53:34#
+#File created on 03.07.2019 00:00:00 03.07.2019 18:34:32#
 #
 #IMPORTANT INFO REGARDING the keyboard key AltGr (RAlt as named in DCS) or RMENU as named DCSFP
 #When you press AltGr DCSFP will register RMENU + LCONTROL. This is a bug which "just is". You need to modify that in the profile
@@ -9,6 +9,8 @@
 
 #  ***Do not change the location nor content of the line below***
 Airframe=Mi8
+OperationLevelFlag=19
+UseGenericRadio=False
 
 
 PanelType=PZ55SwitchPanel
@@ -73,6 +75,8 @@ BeginPanel
 	MultiPanelDCSBIOSControl{ALT}\o/{0HDG_BUTTON|hdg off}\o/\o/DCSBIOSInput{AUTOPILOT_HDG_OFF|SET_STATE|1|0}
 	MultiPanelDCSBIOSControlLCD{ALT}\o/{UpperLCD}\o/DCSBiosOutput{ALT_MSL_FT|Equals|0}
 EndPanel
+
+
 
 
 #--------------------------------------------------------------------
@@ -250,4 +254,5 @@ EndPanel
 #	NONAME
 #	PA1
 #	OEM_CLEAR
+#	VK_NULL
 

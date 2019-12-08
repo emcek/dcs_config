@@ -1,7 +1,16 @@
 #This file can be manually edited using any ASCII editor.
-#File created on 07/04/2018 0:00:00 07/04/2018 14:21:17
+#File created on 2019-12-08 00:00:00 2019-12-08 18:02:31#
+#
+#IMPORTANT INFO REGARDING the keyboard key AltGr (RAlt as named in DCS) or RMENU as named DCSFP
+#When you press AltGr DCSFP will register RMENU + LCONTROL. This is a bug which "just is". You need to modify that in the profile
+#by deleting the + LCONTROL part.
+#So for example AltGr + HOME pressed on the keyboard becomes RMENU + LCONTROL + HOME
+#Open text editor and delete the LCONTROL ==> RMENU + HOME
+
 #  ***Do not change the location nor content of the line below***
 Airframe=Ka50
+OperationLevelFlag=3
+UseGenericRadio=False
 
 
 PanelType=PZ55SwitchPanel
@@ -66,6 +75,18 @@ BeginPanel
 	MultiPanelDCSBIOSControl{CRS}\o/{1LCD_WHEEL_INC|HSI_COURSE_ROT inc}\o/\o/DCSBIOSInput{HSI_COURSE_ROT|VARIABLE_STEP|1000|0}
 	MultiPanelDCSBIOSControl{CRS}\o/{0AUTO_THROTTLE|HSI_DH_DTA auto}\o/\o/DCSBIOSInput{HSI_DH_DTA_MANUAL_AUTO|SET_STATE|0|0}
 	MultiPanelDCSBIOSControl{CRS}\o/{1AUTO_THROTTLE|HSI_DH_DTA manual}\o/\o/DCSBIOSInput{HSI_DH_DTA_MANUAL_AUTO|SET_STATE|1|0}
+	MultiPanelDCSBIOSControl{ALT}\o/{1HDG_BUTTON|Autopilot Bank on}\o/\o/DCSBIOSInput{AP_BANK_HOLD_BTN|SET_STATE|1|0}
+	MultiPanelDCSBIOSControl{ALT}\o/{0HDG_BUTTON|Autopilot Bank off}\o/\o/DCSBIOSInput{AP_BANK_HOLD_BTN|SET_STATE|0|0}
+	MultiPanelDCSBIOSControl{ALT}\o/{1APR_BUTTON|Autopilot Heading on}\o/\o/DCSBIOSInput{AP_HDG_HOLD_BTN|SET_STATE|1|0}
+	MultiPanelDCSBIOSControl{ALT}\o/{0APR_BUTTON|Autopilot Heading of}\o/\o/DCSBIOSInput{AP_HDG_HOLD_BTN|SET_STATE|0|0}
+	MultiPanelDCSBIOSControl{ALT}\o/{1REV_BUTTON|Autopilot Alt on}\o/\o/DCSBIOSInput{AP_ALT_HOLD_BTN|SET_STATE|1|0}
+	MultiPanelDCSBIOSControl{ALT}\o/{0REV_BUTTON|Autopilot Alt off}\o/\o/DCSBIOSInput{AP_ALT_HOLD_BTN|SET_STATE|0|0}
+	MultiPanelDCSBIOSControl{ALT}\o/{1NAV_BUTTON|Autopilot Pitch on}\o/\o/DCSBIOSInput{AP_PITCH_HOLD_BTN|SET_STATE|1|0}
+	MultiPanelDCSBIOSControl{ALT}\o/{0NAV_BUTTON|Autopilot Pitch off}\o/\o/DCSBIOSInput{AP_PITCH_HOLD_BTN|SET_STATE|0|0}
+	MultiPanelDCSBIOSControl{ALT}\o/{1IAS_BUTTON|Autopilot DirectorOn}\o/\o/DCSBIOSInput{AP_FD_BTN|SET_STATE|1|0}
+	MultiPanelDCSBIOSControl{ALT}\o/{0IAS_BUTTON|Autopilot DirectorOf}\o/\o/DCSBIOSInput{AP_FD_BTN|SET_STATE|0|0}
+	MultiPanelDCSBIOSControl{ALT}\o/{0AUTO_THROTTLE|Master Arm Off}\o/\o/DCSBIOSInput{WEAPONS_MASTER_ARM|SET_STATE|0|0}
+	MultiPanelDCSBIOSControl{ALT}\o/{1AUTO_THROTTLE|Master Arm On}\o/\o/DCSBIOSInput{WEAPONS_MASTER_ARM|SET_STATE|1|0}
 	MultiPanelDCSBIOSControlLCD{VS}\o/{LowerLCD}\o/DCSBiosOutputFormula{((VARIO_SPEED/65536)*60)-30}
 	MultiPanelDCSBIOSControlLCD{VS}\o/{UpperLCD}\o/DCSBiosOutputFormula{Ifless ( RALT_ALT 61138 (Ifless ( RALT_ALT 54591 ( Ifless ( RALT_ALT 49420 ( Ifless ( RALT_ALT 30350 ( Ifless ( RALT_ALT 12045 (RALT_ALT/602,25)  ((0,00163*(RALT_ALT-12045))+20)) )  ((0,00524*(RALT_ALT-30350))+50)) )  ((0,00967*(RALT_ALT-49420))+150)) ) ((0,01527*(RALT_ALT-54591))+200)) )  300 ) }
 	MultiPanelDCSBIOSControlLCD{IAS}\o/{UpperLCD}\o/DCSBiosOutputFormula{truncate((AIRSPEED*350)/65536)}
@@ -74,6 +95,8 @@ BeginPanel
 	MultiPanelDCSBIOSControlLCD{ALT}\o/{LowerLCD}\o/DCSBiosOutputFormula{truncate(((ALT_QFE_PRESS/65536)*200)+600)}
 	MultiPanelDCSBIOSControlLCD{CRS}\o/{UpperLCD}\o/DCSBiosOutputFormula{(HSI_DES_COURSE/65536)*360}
 EndPanel
+
+
 
 
 #--------------------------------------------------------------------
@@ -251,4 +274,5 @@ EndPanel
 #	NONAME
 #	PA1
 #	OEM_CLEAR
+#	VK_NULL
 

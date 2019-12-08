@@ -1,5 +1,5 @@
 #This file can be manually edited using any ASCII editor.
-#File created on 29.09.2018 00:00:00 29.09.2018 08:40:52#
+#File created on 2019-11-17 00:00:00 2019-11-17 18:30:39#
 #
 #IMPORTANT INFO REGARDING the keyboard key AltGr (RAlt as named in DCS) or RMENU as named DCSFP
 #When you press AltGr DCSFP will register RMENU + LCONTROL. This is a bug which "just is". You need to modify that in the profile
@@ -9,6 +9,8 @@
 
 #  ***Do not change the location nor content of the line below***
 Airframe=UH1H
+OperationLevelFlag=3
+UseGenericRadio=False
 
 
 PanelType=PZ55SwitchPanel
@@ -31,8 +33,8 @@ BeginPanel
 	SwitchPanelDCSBIOSControl{0SWITCHKEY_FUEL_PUMP|Fuel OFF}\o/\o/DCSBIOSInput{MAIN_FUEL_SW|SET_STATE|0|0}
 	SwitchPanelDCSBIOSControl{1SWITCHKEY_MASTER_ALT|Starter Gen ON}\o/\o/DCSBIOSInput{STARTER_GEN_SW|SET_STATE|1|0}
 	SwitchPanelDCSBIOSControl{0SWITCHKEY_MASTER_ALT|Starter Gen OFF}\o/\o/DCSBIOSInput{STARTER_GEN_SW|SET_STATE|0|0}
-	SwitchPanelDCSBIOSControl{0SWITCHKEY_CLOSE_COWL|Door Open}\o/\o/DCSBIOSInput{DOOR_L-PTR|SET_STATE|1|0}
-	SwitchPanelDCSBIOSControl{1SWITCHKEY_CLOSE_COWL|Door Close}\o/\o/DCSBIOSInput{DOOR_L-PTR|SET_STATE|1|0}
+	SwitchPanelDCSBIOSControl{0SWITCHKEY_CLOSE_COWL|Door Open}\o/\o/DCSBIOSInput{DOOR_R-PTR|SET_STATE|1|0}\o/DCSBIOSInput{DOOR_L-PTR|SET_STATE|1|0}
+	SwitchPanelDCSBIOSControl{1SWITCHKEY_CLOSE_COWL|Door Close}\o/\o/DCSBIOSInput{DOOR_R-PTR|SET_STATE|0|0}\o/DCSBIOSInput{DOOR_L-PTR|SET_STATE|0|0}
 	SwitchPanelDCSBIOSControl{1SWITCHKEY_LIGHTS_PANEL|Panel On}\o/\o/DCSBIOSInput{BRT_CONSOLE|SET_STATE|65535|0}\o/DCSBIOSInput{BRT_COPILOT|SET_STATE|65535|0}\o/DCSBIOSInput{BRT_ENGINE|SET_STATE|65535|0}\o/DCSBIOSInput{BRT_PED|SET_STATE|65535|0}\o/DCSBIOSInput{BRT_PILOT|SET_STATE|65535|0}\o/DCSBIOSInput{BRT_SEC|SET_STATE|65535|0}
 	SwitchPanelDCSBIOSControl{0SWITCHKEY_LIGHTS_PANEL|Panel Off}\o/\o/DCSBIOSInput{BRT_CONSOLE|SET_STATE|0|0}\o/DCSBIOSInput{BRT_COPILOT|SET_STATE|0|0}\o/DCSBIOSInput{BRT_ENGINE|SET_STATE|0|0}\o/DCSBIOSInput{BRT_PED|SET_STATE|0|0}\o/DCSBIOSInput{BRT_PILOT|SET_STATE|0|0}\o/DCSBIOSInput{BRT_SEC|SET_STATE|0|0}
 	SwitchPanelDCSBIOSControl{1KNOB_ENGINE_OFF|Pos Lights OFF}\o/\o/DCSBIOSInput{NVG_POS_LTS|SET_STATE|0|0}
@@ -59,6 +61,8 @@ BeginPanel
 	MultiPanelDCSBIOSControlLCD{ALT}\o/{UpperLCD}\o/DCSBiosOutput{FUEL_QTY|Equals|0}
 	MultiPanelDCSBIOSControlLCD{ALT}\o/{LowerLCD}\o/DCSBiosOutput{ALT_MSL_FT|Equals|0}
 EndPanel
+
+
 
 
 #--------------------------------------------------------------------
@@ -236,4 +240,5 @@ EndPanel
 #	NONAME
 #	PA1
 #	OEM_CLEAR
+#	VK_NULL
 
