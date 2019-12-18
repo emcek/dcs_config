@@ -135,22 +135,6 @@ local diff = {
 				},
 			},
 		},
-		["dnilp39u289cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN29",
-				},
-			},
-			["name"] = "Zoom in slow",
-		},
-		["dnilp40u290cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN28",
-				},
-			},
-			["name"] = "Zoom out slow",
-		},
 	},
 }
 return diff

@@ -25,14 +25,6 @@ local diff = {
 			},
 		},
 		["a3005cd2"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_X",
-				},
-				[2] = {
-					["key"] = "JOY_Y",
-				},
-			},
 			["name"] = "Throttle (analog)",
 			["removed"] = {
 				[1] = {

@@ -1,7 +1,7 @@
 local diff = {
 	["axisDiffs"] = {
 		["a2001cdnil"] = {
-			["name"] = "Flight Control Cyclic Pitch",
+			["name"] = "Pitch",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_Y",
@@ -9,7 +9,7 @@ local diff = {
 			},
 		},
 		["a2002cdnil"] = {
-			["name"] = "Flight Control Cyclic Roll",
+			["name"] = "Roll",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_X",
@@ -17,23 +17,15 @@ local diff = {
 			},
 		},
 		["a2003cdnil"] = {
-			["name"] = "Flight Control Rudder",
+			["name"] = "Rudder",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_RZ",
 				},
 			},
 		},
-		["a2087cdnil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_X",
-				},
-				[2] = {
-					["key"] = "JOY_Y",
-				},
-			},
-			["name"] = "Flight Control Collective",
+		["a2004cdnil"] = {
+			["name"] = "Throttle Both",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_Z",
@@ -42,19 +34,35 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
-		["d3025pnilu3025cd36vd1vpnilvu0"] = {
-			["name"] = "Radio trigger - RADIO",
+		["d350pnilu351cdnilvdnilvpnilvunil"] = {
+			["name"] = "Weapon release",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN2",
+				},
+			},
+		},
+		["d554pnilu638cdnilvdnilvpnilvunil"] = {
+			["name"] = "Gun Trigger",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN1",
 				},
 			},
 		},
-		["d84pnilu84cdnilvd1vpnilvu0"] = {
-			["name"] = "Release weapons",
+		["d562pnilu606cdnilvdnilvpnilvunil"] = {
+			["name"] = "HOTAS Nosewheel Steering Button",
 			["removed"] = {
 				[1] = {
-					["key"] = "JOY_BTN2",
+					["key"] = "JOY_BTN4",
+				},
+			},
+		},
+		["d957pnilu958cdnilvdnilvpnilvunil"] = {
+			["name"] = "Stick to trimmer control mode",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN3",
 				},
 			},
 		},

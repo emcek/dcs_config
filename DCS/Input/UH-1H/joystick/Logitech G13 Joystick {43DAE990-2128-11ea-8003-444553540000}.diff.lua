@@ -25,14 +25,6 @@ local diff = {
 			},
 		},
 		["a2087cdnil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_X",
-				},
-				[2] = {
-					["key"] = "JOY_Y",
-				},
-			},
 			["name"] = "Flight Control Collective",
 			["removed"] = {
 				[1] = {

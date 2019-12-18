@@ -53,6 +53,14 @@ local diff = {
 				},
 			},
 		},
+		["d957pnilu958cdnilvdnilvpnilvunil"] = {
+			["name"] = "Trimmer",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN3",
+				},
+			},
+		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
 			["removed"] = {
