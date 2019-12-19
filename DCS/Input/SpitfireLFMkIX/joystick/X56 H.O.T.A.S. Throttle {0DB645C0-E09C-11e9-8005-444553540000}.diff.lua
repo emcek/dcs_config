@@ -27,7 +27,7 @@ local diff = {
 		["a3005cd2"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_X",
+					["key"] = "JOY_Y",
 				},
 			},
 			["name"] = "Throttle (analog)",

@@ -1,28 +1,36 @@
 local diff = {
 	["axisDiffs"] = {
-		["a2003cdnil"] = {
-			["name"] = "Rudder",
+		["a2001cdnil"] = {
+			["name"] = "Pitch",
 			["removed"] = {
 				[1] = {
-					["key"] = "JOY_RZ",
+					["key"] = "JOY_Y",
 				},
 			},
 		},
-		["a2004cdnil"] = {
-			["name"] = "Thrust",
+		["a2002cdnil"] = {
+			["name"] = "Roll",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_X",
+				},
+			},
+		},
+		["a3112cd32"] = {
+			["name"] = "Throttle Axis",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_Z",
 				},
 			},
 		},
-		["a2012cdnil"] = {
-			["added"] = {
+		["a3123cd35"] = {
+			["name"] = "Rudder Axis",
+			["removed"] = {
 				[1] = {
 					["key"] = "JOY_RZ",
 				},
 			},
-			["name"] = "Zoom View",
 		},
 	},
 	["keyDiffs"] = {

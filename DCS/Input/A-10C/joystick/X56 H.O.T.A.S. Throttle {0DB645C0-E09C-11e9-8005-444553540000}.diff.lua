@@ -32,6 +32,22 @@ local diff = {
 				},
 			},
 		},
+		["a2005cdnil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_X",
+				},
+			},
+			["name"] = "Throttle Left",
+		},
+		["a2006cdnil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_Y",
+				},
+			},
+			["name"] = "Throttle Right",
+		},
 	},
 	["keyDiffs"] = {
 		["d350pnilu351cdnilvdnilvpnilvunil"] = {

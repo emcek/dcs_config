@@ -1,5 +1,21 @@
 local diff = {
 	["axisDiffs"] = {
+		["a2001cdnil"] = {
+			["name"] = "Pitch",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_Y",
+				},
+			},
+		},
+		["a2002cdnil"] = {
+			["name"] = "Roll",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_X",
+				},
+			},
+		},
 		["a2003cdnil"] = {
 			["name"] = "Rudder",
 			["removed"] = {
@@ -8,64 +24,16 @@ local diff = {
 				},
 			},
 		},
-		["a2004cdnil"] = {
-			["name"] = "Thrust",
+		["a3025cd5"] = {
+			["name"] = "Throttle",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_Z",
 				},
 			},
 		},
-		["a2012cdnil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_RZ",
-				},
-			},
-			["name"] = "Zoom View",
-		},
-		["a2033cdnil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_RX",
-				},
-			},
-			["name"] = "I-251 Slew Horizontal",
-		},
-		["a2034cdnil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_RY",
-				},
-			},
-			["name"] = "I-251 Slew Vertical",
-		},
 	},
 	["keyDiffs"] = {
-		["d101pnilunilcdnilvdnilvpnilvunil"] = {
-			["name"] = "Weapon Change",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN4",
-				},
-			},
-		},
-		["d113pnilunilcdnilvdnilvpnilvunil"] = {
-			["name"] = "Cannon",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN5",
-				},
-			},
-		},
-		["d84pnilu85cdnilvdnilvpnilvunil"] = {
-			["name"] = "Weapon Fire",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN1",
-				},
-			},
-		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
 			["removed"] = {

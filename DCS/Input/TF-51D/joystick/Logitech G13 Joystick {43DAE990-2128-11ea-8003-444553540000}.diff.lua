@@ -16,21 +16,13 @@ local diff = {
 				},
 			},
 		},
-		["a2112cdnil"] = {
-			["added"] = {
+		["a2003cdnil"] = {
+			["name"] = "Rudder",
+			["removed"] = {
 				[1] = {
-					["key"] = "JOY_X",
+					["key"] = "JOY_RZ",
 				},
 			},
-			["name"] = "Wheel Brake Left",
-		},
-		["a2113cdnil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_Y",
-				},
-			},
-			["name"] = "Wheel Brake Right",
 		},
 		["a3025cd5"] = {
 			["name"] = "Throttle",

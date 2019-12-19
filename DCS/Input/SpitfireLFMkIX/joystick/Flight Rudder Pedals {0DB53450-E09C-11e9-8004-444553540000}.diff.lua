@@ -19,10 +19,30 @@ local diff = {
 		["a3004cd1"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_Y",
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0,
+						["invert"] = true,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
+					["key"] = "JOY_X",
 				},
 				[2] = {
-					["key"] = "JOY_X",
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0,
+						["invert"] = true,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
+					["key"] = "JOY_Y",
 				},
 			},
 			["name"] = "Wheel Brakes (analog)",

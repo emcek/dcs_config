@@ -1,7 +1,7 @@
 local diff = {
 	["axisDiffs"] = {
 		["a2001cdnil"] = {
-			["name"] = "Flight Control Cyclic Pitch",
+			["name"] = "Pitch",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_Y",
@@ -9,67 +9,52 @@ local diff = {
 			},
 		},
 		["a2002cdnil"] = {
-			["name"] = "Flight Control Cyclic Roll",
+			["name"] = "Roll",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_X",
 				},
 			},
 		},
-		["a2087cdnil"] = {
-			["name"] = "Flight Control Collective",
+		["a2003cdnil"] = {
+			["name"] = "Rudder",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_RZ",
+				},
+			},
+		},
+		["a2004cdnil"] = {
+			["name"] = "Thrust",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_Z",
 				},
 			},
 		},
-		["a2101cdnil"] = {
-			["added"] = {
-				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0,
-						},
-						["deadzone"] = 0,
-						["invert"] = true,
-						["saturationX"] = 1,
-						["saturationY"] = 1,
-						["slider"] = false,
-					},
-					["key"] = "JOY_X",
-				},
-				[2] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0,
-						},
-						["deadzone"] = 0,
-						["invert"] = true,
-						["saturationX"] = 1,
-						["saturationY"] = 1,
-						["slider"] = false,
-					},
-					["key"] = "JOY_Y",
-				},
-			},
-			["name"] = "Wheel Brake",
-		},
 	},
 	["keyDiffs"] = {
-		["d3025pnilu3025cd36vd1vpnilvu0"] = {
-			["name"] = "Radio trigger - RADIO",
+		["d101pnilunilcdnilvdnilvpnilvunil"] = {
+			["name"] = "Weapon Change",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN4",
+				},
+			},
+		},
+		["d113pnilunilcdnilvdnilvpnilvunil"] = {
+			["name"] = "Cannon",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN5",
+				},
+			},
+		},
+		["d84pnilu85cdnilvdnilvpnilvunil"] = {
+			["name"] = "Weapon Fire",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN1",
-				},
-			},
-		},
-		["d84pnilu84cdnilvd1vpnilvu0"] = {
-			["name"] = "Release weapons",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN2",
 				},
 			},
 		},
@@ -134,14 +119,6 @@ local diff = {
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN_POV1_D",
-				},
-			},
-		},
-		["dnilp36unilcdnilvdnilvpnilvunil"] = {
-			["name"] = "View Center",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN5",
 				},
 			},
 		},
