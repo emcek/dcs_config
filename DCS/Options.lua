@@ -40,6 +40,7 @@ options = {
 		["spectatorExternalViews"] = true,
 		["tips"] = true,
 		["units"] = "metric",
+		["unrestrictedSATNAV"] = false,
 		["userMarks"] = true,
 		["userSnapView"] = true,
 		["wakeTurbulence"] = false,
@@ -118,6 +119,16 @@ options = {
 		["DCS-SRS"] = {
 			["srsAutoLaunchEnabled"] = false,
 			["srsOverlayEnabled"] = false,
+		},
+		["F-14B"] = {
+			["CPLocalList"] = "default",
+			["JESTER_Camera"] = true,
+			["JESTER_HeadMenu"] = true,
+			["JESTER_LandingCallouts"] = true,
+			["JESTER_SwitchToPSTT"] = true,
+			["RadioMenuPttOptions"] = 0,
+			["TID_A2G"] = false,
+			["WEAP_OFF_GUN"] = false,
 		},
 		["F/A-18C"] = {
 			["CPLocalList"] = "default",
