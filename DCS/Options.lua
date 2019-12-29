@@ -10,7 +10,7 @@ options = {
 		["use_mouse"] = false,
 	},
 	["difficulty"] = {
-		["RBDAI"] = true,
+		["RBDAI"] = false,
 		["aircraftMode"] = true,
 		["autoTrimmer"] = false,
 		["avionicsLanguage"] = "english",
@@ -43,7 +43,7 @@ options = {
 		["unrestrictedSATNAV"] = false,
 		["userMarks"] = true,
 		["userSnapView"] = true,
-		["wakeTurbulence"] = false,
+		["wakeTurbulence"] = true,
 		["weapons"] = false,
 	},
 	["format"] = 1,
@@ -266,7 +266,7 @@ options = {
 	["views"] = {
 		["cockpit"] = {
 			["avionics"] = 3,
-			["mirrors"] = false,
+			["mirrors"] = true,
 			["reflections"] = false,
 		},
 	},
