@@ -25,6 +25,11 @@ local diff = {
 			},
 		},
 		["a3025cd5"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_Y",
+				},
+			},
 			["name"] = "Throttle",
 			["removed"] = {
 				[1] = {
