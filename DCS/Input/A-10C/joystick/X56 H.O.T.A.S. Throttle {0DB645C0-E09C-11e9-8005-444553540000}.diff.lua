@@ -48,6 +48,30 @@ local diff = {
 			},
 			["name"] = "Throttle Right",
 		},
+		["a2012cdnil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_Z",
+				},
+			},
+			["name"] = "Zoom View",
+		},
+		["a2033cdnil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_RX",
+				},
+			},
+			["name"] = "HOTAS Slew Horizontal",
+		},
+		["a2034cdnil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_RY",
+				},
+			},
+			["name"] = "HOTAS Slew Vertical",
+		},
 	},
 	["keyDiffs"] = {
 		["d350pnilu351cdnilvdnilvpnilvunil"] = {
