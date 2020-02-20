@@ -136,7 +136,7 @@ options = {
 			["hmdEye"] = 1,
 		},
 		["Ka-50"] = {
-			["CPLocalList"] = "Ricardo Blue",
+			["CPLocalList"] = "default",
 			["Ka50RudderTrimmer"] = false,
 			["Ka50TrimmingMethod"] = 1,
 			["helmetCircleDisplacement"] = 0,
