@@ -48,6 +48,14 @@ local diff = {
 			},
 			["name"] = "Throttle Right",
 		},
+		["a2012cdnil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_Z",
+				},
+			},
+			["name"] = "Zoom View",
+		},
 	},
 }
 return diff
