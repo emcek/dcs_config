@@ -110,6 +110,13 @@ options = {
 			["rwrType"] = 0,
 			["trimSpeed"] = 0,
 		},
+		["CA"] = {
+			["ground_aim_helper"] = true,
+			["ground_automatic"] = true,
+			["ground_platform_shake"] = true,
+			["ground_target_info"] = true,
+			["kompass_options"] = 1,
+		},
 		["CaptoGlove"] = {
 			["armBending"] = 60,
 			["enable"] = false,
