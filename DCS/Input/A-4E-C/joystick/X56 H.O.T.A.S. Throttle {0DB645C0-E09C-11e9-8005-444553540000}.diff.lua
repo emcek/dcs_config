@@ -16,7 +16,20 @@ local diff = {
 				},
 			},
 		},
+		["a2012cdnil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_Z",
+				},
+			},
+			["name"] = "Zoom View",
+		},
 		["a3112cd32"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_Y",
+				},
+			},
 			["name"] = "Throttle Axis",
 			["removed"] = {
 				[1] = {

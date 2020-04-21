@@ -25,30 +25,12 @@ local diff = {
 			},
 		},
 		["a3123cd35"] = {
-			["changed"] = {
+			["name"] = "Rudder Axis",
+			["removed"] = {
 				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0.3,
-						},
-						["deadzone"] = 0.03,
-						["invert"] = false,
-						["saturationX"] = 1,
-						["saturationY"] = 1,
-						["slider"] = false,
-					},
 					["key"] = "JOY_RZ",
 				},
 			},
-			["name"] = "Rudder Axis",
-		},
-		["a3124cd10"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_Y",
-				},
-			},
-			["name"] = "single brake Axis",
 		},
 	},
 	["keyDiffs"] = {

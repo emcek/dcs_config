@@ -16,6 +16,24 @@ local diff = {
 				},
 			},
 		},
+		["a2003cdnil"] = {
+			["changed"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0.3,
+						},
+						["deadzone"] = 0.03,
+						["invert"] = false,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
+					["key"] = "JOY_RZ",
+				},
+			},
+			["name"] = "Rudder",
+		},
 		["a3004cd1"] = {
 			["added"] = {
 				[1] = {
