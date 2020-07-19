@@ -16,6 +16,22 @@ local diff = {
 				},
 			},
 		},
+		["a3046cd16"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_RY",
+				},
+			},
+			["name"] = "RDR CURSOR Switch - Y axis",
+		},
+		["a3047cd16"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_RX",
+				},
+			},
+			["name"] = "RDR CURSOR Switch - X axis",
+		},
 	},
 	["keyDiffs"] = {
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {

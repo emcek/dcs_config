@@ -24,6 +24,14 @@ local diff = {
 				},
 			},
 		},
+		["a2012cdnil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_Z",
+				},
+			},
+			["name"] = "Zoom View",
+		},
 		["a3025cd5"] = {
 			["added"] = {
 				[1] = {

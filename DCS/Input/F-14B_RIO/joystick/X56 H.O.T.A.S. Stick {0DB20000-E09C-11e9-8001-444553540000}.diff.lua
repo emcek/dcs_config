@@ -16,6 +16,22 @@ local diff = {
 				},
 			},
 		},
+		["a3499cd38"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_RX",
+				},
+			},
+			["name"] = "LANTIRN Slew X",
+		},
+		["a3500cd38"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_RY",
+				},
+			},
+			["name"] = "LANTIRN Slew Y",
+		},
 	},
 }
 return diff

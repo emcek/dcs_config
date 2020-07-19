@@ -1,5 +1,13 @@
 local diff = {
 	["axisDiffs"] = {
+		["a2012cdnil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_Z",
+				},
+			},
+			["name"] = "Zoom View",
+		},
 		["a3089cd58"] = {
 			["name"] = "HCU left/right",
 			["removed"] = {
