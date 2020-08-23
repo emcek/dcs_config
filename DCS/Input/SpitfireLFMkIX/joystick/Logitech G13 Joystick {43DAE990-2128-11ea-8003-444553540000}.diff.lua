@@ -24,40 +24,16 @@ local diff = {
 				},
 			},
 		},
-		["a2012cdnil"] = {
-			["added"] = {
+		["a3005cd2"] = {
+			["name"] = "Throttle (analog)",
+			["removed"] = {
 				[1] = {
 					["key"] = "JOY_Z",
 				},
 			},
-			["name"] = "Zoom View",
-		},
-		["a3005cd3"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_Y",
-				},
-			},
-			["name"] = "Throttle (analog)",
 		},
 	},
 	["keyDiffs"] = {
-		["d350pnilu351cdnilvdnilvpnilvunil"] = {
-			["name"] = "Bomb Release (D-30 & D-40)",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN2",
-				},
-			},
-		},
-		["d84pnilu85cdnilvdnilvpnilvunil"] = {
-			["name"] = "Fire Machineguns",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN1",
-				},
-			},
-		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
 			["removed"] = {
@@ -119,6 +95,14 @@ local diff = {
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN_POV1_D",
+				},
+			},
+		},
+		["dnilp36unilcdnilvdnilvpnilvunil"] = {
+			["name"] = "View Center",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN5",
 				},
 			},
 		},

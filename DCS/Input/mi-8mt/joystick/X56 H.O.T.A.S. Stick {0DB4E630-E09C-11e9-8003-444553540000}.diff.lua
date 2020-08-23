@@ -1,60 +1,36 @@
 local diff = {
 	["axisDiffs"] = {
-		["a2001cdnil"] = {
-			["name"] = "Pitch",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_Y",
-				},
-			},
-		},
-		["a2002cdnil"] = {
-			["name"] = "Roll",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_X",
-				},
-			},
-		},
 		["a2003cdnil"] = {
-			["name"] = "Rudder",
+			["name"] = "Flight Control Rudder",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_RZ",
 				},
 			},
 		},
-		["a2012cdnil"] = {
-			["added"] = {
+		["a2087cdnil"] = {
+			["name"] = "Flight Control Collective",
+			["removed"] = {
 				[1] = {
 					["key"] = "JOY_Z",
 				},
 			},
-			["name"] = "Zoom View",
-		},
-		["a3005cd3"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_Y",
-				},
-			},
-			["name"] = "Throttle (analog)",
 		},
 	},
 	["keyDiffs"] = {
-		["d350pnilu351cdnilvdnilvpnilvunil"] = {
-			["name"] = "Bomb Release (D-30 & D-40)",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN2",
-				},
-			},
-		},
-		["d84pnilu85cdnilvdnilvpnilvunil"] = {
-			["name"] = "Fire Machineguns",
+		["d3025pnilu3025cd36vd1vpnilvu0"] = {
+			["name"] = "Radio trigger - RADIO",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN1",
+				},
+			},
+		},
+		["d84pnilu84cdnilvd1vpnilvu0"] = {
+			["name"] = "Release weapons",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN2",
 				},
 			},
 		},
@@ -119,6 +95,14 @@ local diff = {
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN_POV1_D",
+				},
+			},
+		},
+		["dnilp36unilcdnilvdnilvpnilvunil"] = {
+			["name"] = "View Center",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN5",
 				},
 			},
 		},

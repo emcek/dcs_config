@@ -1,5 +1,21 @@
 local diff = {
 	["axisDiffs"] = {
+		["a2001cdnil"] = {
+			["name"] = "Pitch",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_Y",
+				},
+			},
+		},
+		["a2002cdnil"] = {
+			["name"] = "Roll",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_X",
+				},
+			},
+		},
 		["a2003cdnil"] = {
 			["name"] = "Rudder",
 			["removed"] = {
@@ -8,29 +24,13 @@ local diff = {
 				},
 			},
 		},
-		["a2004cdnil"] = {
-			["name"] = "Thrust",
+		["a3005cd2"] = {
+			["name"] = "Throttle (analog)",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_Z",
 				},
 			},
-		},
-		["a3046cd16"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_RY",
-				},
-			},
-			["name"] = "RDR CURSOR Switch - Y axis",
-		},
-		["a3047cd16"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_RX",
-				},
-			},
-			["name"] = "RDR CURSOR Switch - X axis",
 		},
 	},
 	["keyDiffs"] = {
@@ -95,6 +95,14 @@ local diff = {
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN_POV1_D",
+				},
+			},
+		},
+		["dnilp36unilcdnilvdnilvpnilvunil"] = {
+			["name"] = "View Center",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN5",
 				},
 			},
 		},

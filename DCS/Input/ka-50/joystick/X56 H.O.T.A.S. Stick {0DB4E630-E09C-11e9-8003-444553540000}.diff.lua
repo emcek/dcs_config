@@ -8,14 +8,6 @@ local diff = {
 				},
 			},
 		},
-		["a2004cdnil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_RZ",
-				},
-			},
-			["name"] = "Throttle",
-		},
 		["a2087cdnil"] = {
 			["name"] = "Flight Control Collective",
 			["removed"] = {

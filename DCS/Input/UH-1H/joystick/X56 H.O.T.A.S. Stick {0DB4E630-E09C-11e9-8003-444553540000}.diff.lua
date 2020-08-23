@@ -16,14 +16,6 @@ local diff = {
 				},
 			},
 		},
-		["a3026cd3"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_RZ",
-				},
-			},
-			["name"] = "Throttle",
-		},
 	},
 	["keyDiffs"] = {
 		["d3004pnilu3004cd41vd1vpnilvu0"] = {
