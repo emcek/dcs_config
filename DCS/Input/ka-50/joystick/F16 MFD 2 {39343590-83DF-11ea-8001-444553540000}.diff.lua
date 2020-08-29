@@ -42,54 +42,6 @@ local diff = {
 				},
 			},
 		},
-		["d496pnilu805cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN15",
-				},
-			},
-			["name"] = "ABRIS Button 1",
-		},
-		["d497pnilu806cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN14",
-				},
-			},
-			["name"] = "ABRIS Button 2",
-		},
-		["d498pnilu807cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN13",
-				},
-			},
-			["name"] = "ABRIS Button 3",
-		},
-		["d499pnilu808cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN12",
-				},
-			},
-			["name"] = "ABRIS Button 4",
-		},
-		["d500pnilu809cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN11",
-				},
-			},
-			["name"] = "ABRIS Button 5",
-		},
-		["d503pnilu812cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN10",
-				},
-			},
-			["name"] = "ABRIS Axis Push",
-		},
 		["d509pnilu510cdnilvdnilvpnilvunil"] = {
 			["name"] = "Lock target",
 			["removed"] = {
@@ -196,38 +148,6 @@ local diff = {
 					["key"] = "JOY_BTN5",
 				},
 			},
-		},
-		["dnilp501unilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN23",
-				},
-			},
-			["name"] = "ABRIS Axis Increase",
-		},
-		["dnilp502unilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN24",
-				},
-			},
-			["name"] = "ABRIS Axis Decrease",
-		},
-		["dnilp504unilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN25",
-				},
-			},
-			["name"] = "ABRIS Brightness Increase",
-		},
-		["dnilp505unilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN26",
-				},
-			},
-			["name"] = "ABRIS Brightness Decrease",
 		},
 		["dnilp88u235cdnilvdnilvpnilvunil"] = {
 			["name"] = "KU-31 Shkval slew left",
