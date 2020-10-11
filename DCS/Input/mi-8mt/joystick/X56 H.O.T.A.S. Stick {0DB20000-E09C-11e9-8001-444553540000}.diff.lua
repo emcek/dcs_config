@@ -1,15 +1,33 @@
 local diff = {
 	["axisDiffs"] = {
+		["a2002cdnil"] = {
+			["changed"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0,
+						["invert"] = true,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
+					["key"] = "JOY_X",
+				},
+			},
+			["name"] = "Flight Control Cyclic Roll",
+		},
 		["a2003cdnil"] = {
-			["name"] = "Rudder",
+			["name"] = "Flight Control Rudder",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_RZ",
 				},
 			},
 		},
-		["a3025cd5"] = {
-			["name"] = "Throttle",
+		["a2087cdnil"] = {
+			["name"] = "Flight Control Collective",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_Z",
@@ -18,6 +36,22 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
+		["d3025pnilu3025cd36vd1vpnilvu0"] = {
+			["name"] = "Radio trigger - RADIO",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN1",
+				},
+			},
+		},
+		["d84pnilu84cdnilvd1vpnilvu0"] = {
+			["name"] = "Release weapons",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN2",
+				},
+			},
+		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
 			["removed"] = {
@@ -79,6 +113,14 @@ local diff = {
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN_POV1_D",
+				},
+			},
+		},
+		["dnilp36unilcdnilvdnilvpnilvunil"] = {
+			["name"] = "View Center",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN5",
 				},
 			},
 		},

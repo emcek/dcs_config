@@ -1,41 +1,7 @@
 local diff = {
 	["axisDiffs"] = {
-		["a2001cdnil"] = {
-			["name"] = "Pitch",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_Y",
-				},
-			},
-		},
 		["a2002cdnil"] = {
-			["name"] = "Roll",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_X",
-				},
-			},
-		},
-		["a2003cdnil"] = {
 			["changed"] = {
-				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0.3,
-						},
-						["deadzone"] = 0.03,
-						["invert"] = false,
-						["saturationX"] = 1,
-						["saturationY"] = 1,
-						["slider"] = false,
-					},
-					["key"] = "JOY_RZ",
-				},
-			},
-			["name"] = "Rudder",
-		},
-		["a3004cd1"] = {
-			["added"] = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
@@ -47,21 +13,37 @@ local diff = {
 						["saturationY"] = 1,
 						["slider"] = false,
 					},
-					["key"] = "JOY_Y",
+					["key"] = "JOY_X",
 				},
 			},
-			["name"] = "Wheel Brakes (analog)",
+			["name"] = "Roll",
 		},
-		["a3005cd2"] = {
-			["name"] = "Throttle (analog)",
+		["a2003cdnil"] = {
+			["name"] = "Rudder",
 			["removed"] = {
 				[1] = {
-					["key"] = "JOY_Z",
+					["key"] = "JOY_RZ",
 				},
 			},
 		},
 	},
 	["keyDiffs"] = {
+		["d350pnilu351cdnilvdnilvpnilvunil"] = {
+			["name"] = "Bomb Release (D-30 & D-40)",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN2",
+				},
+			},
+		},
+		["d84pnilu85cdnilvdnilvpnilvunil"] = {
+			["name"] = "Fire Machineguns",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN1",
+				},
+			},
+		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
 			["removed"] = {
@@ -123,14 +105,6 @@ local diff = {
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN_POV1_D",
-				},
-			},
-		},
-		["dnilp36unilcdnilvdnilvpnilvunil"] = {
-			["name"] = "View Center",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN5",
 				},
 			},
 		},

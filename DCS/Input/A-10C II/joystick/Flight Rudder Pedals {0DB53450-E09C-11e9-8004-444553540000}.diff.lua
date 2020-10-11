@@ -1,60 +1,73 @@
 local diff = {
 	["axisDiffs"] = {
-		["a2003cdnil"] = {
-			["name"] = "Flight Control Rudder",
+		["a2001cdnil"] = {
+			["name"] = "Pitch",
 			["removed"] = {
 				[1] = {
-					["key"] = "JOY_RZ",
+					["key"] = "JOY_Y",
 				},
 			},
 		},
-		["a2087cdnil"] = {
-			["name"] = "Flight Control Collective",
+		["a2002cdnil"] = {
+			["name"] = "Roll",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_X",
+				},
+			},
+		},
+		["a2004cdnil"] = {
+			["name"] = "Throttle Both",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_Z",
 				},
 			},
 		},
+		["a2112cdnil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_X",
+				},
+			},
+			["name"] = "Wheel Brake Left",
+		},
+		["a2113cdnil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_Y",
+				},
+			},
+			["name"] = "Wheel Brake Right",
+		},
 	},
 	["keyDiffs"] = {
 		["d350pnilu351cdnilvdnilvpnilvunil"] = {
-			["name"] = "Release weapons",
+			["name"] = "Weapon release",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN2",
 				},
 			},
 		},
-		["d509pnilu510cdnilvdnilvpnilvunil"] = {
-			["name"] = "Lock target",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN4",
-				},
-			},
-		},
-		["d537pnilu385cdnilvdnilvpnilvunil"] = {
-			["name"] = "Hover On/Off",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN3",
-					["reformers"] = {
-						[1] = "LAlt",
-					},
-				},
-			},
-		},
-		["d84pnilu85cdnilvdnilvpnilvunil"] = {
-			["name"] = "Gun fire",
+		["d554pnilu638cdnilvdnilvpnilvunil"] = {
+			["name"] = "Gun Trigger",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN1",
 				},
 			},
 		},
+		["d562pnilu606cdnilvdnilvpnilvunil"] = {
+			["name"] = "HOTAS Nosewheel Steering Button",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN4",
+				},
+			},
+		},
 		["d957pnilu958cdnilvdnilvpnilvunil"] = {
-			["name"] = "Trimmer",
+			["name"] = "Stick to trimmer control mode",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN3",
@@ -126,54 +139,10 @@ local diff = {
 			},
 		},
 		["dnilp36unilcdnilvdnilvpnilvunil"] = {
-			["name"] = "Center View",
+			["name"] = "View Center",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN5",
-				},
-			},
-		},
-		["dnilp88u235cdnilvdnilvpnilvunil"] = {
-			["name"] = "KU-31 Shkval slew left",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_L",
-					["reformers"] = {
-						[1] = "RAlt",
-					},
-				},
-			},
-		},
-		["dnilp89u235cdnilvdnilvpnilvunil"] = {
-			["name"] = "KU-31 Shkval slew right",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_R",
-					["reformers"] = {
-						[1] = "RAlt",
-					},
-				},
-			},
-		},
-		["dnilp90u235cdnilvdnilvpnilvunil"] = {
-			["name"] = "KU-31 Shkval slew up",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_U",
-					["reformers"] = {
-						[1] = "RAlt",
-					},
-				},
-			},
-		},
-		["dnilp91u235cdnilvdnilvpnilvunil"] = {
-			["name"] = "KU-31 Shkval slew down",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_D",
-					["reformers"] = {
-						[1] = "RAlt",
-					},
 				},
 			},
 		},
