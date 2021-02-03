@@ -1,33 +1,15 @@
 local diff = {
 	["axisDiffs"] = {
-		["a2002cdnil"] = {
-			["changed"] = {
-				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0,
-						},
-						["deadzone"] = 0,
-						["invert"] = true,
-						["saturationX"] = 1,
-						["saturationY"] = 1,
-						["slider"] = false,
-					},
-					["key"] = "JOY_X",
-				},
-			},
-			["name"] = "Roll",
-		},
 		["a2003cdnil"] = {
-			["name"] = "Rudder",
+			["name"] = "Flight Control Rudder",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_RZ",
 				},
 			},
 		},
-		["a2004cdnil"] = {
-			["name"] = "Throttle Both",
+		["a2087cdnil"] = {
+			["name"] = "Flight Control Collective",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_Z",
@@ -37,31 +19,42 @@ local diff = {
 	},
 	["keyDiffs"] = {
 		["d350pnilu351cdnilvdnilvpnilvunil"] = {
-			["name"] = "Weapon release",
+			["name"] = "Release weapons",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN2",
 				},
 			},
 		},
-		["d554pnilu638cdnilvdnilvpnilvunil"] = {
-			["name"] = "Gun Trigger",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN1",
-				},
-			},
-		},
-		["d562pnilu606cdnilvdnilvpnilvunil"] = {
-			["name"] = "HOTAS Nosewheel Steering Button",
+		["d509pnilu510cdnilvdnilvpnilvunil"] = {
+			["name"] = "Lock target",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN4",
 				},
 			},
 		},
+		["d537pnilu385cdnilvdnilvpnilvunil"] = {
+			["name"] = "Hover On/Off",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN3",
+					["reformers"] = {
+						[1] = "LAlt",
+					},
+				},
+			},
+		},
+		["d84pnilu85cdnilvdnilvpnilvunil"] = {
+			["name"] = "Gun fire",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN1",
+				},
+			},
+		},
 		["d957pnilu958cdnilvdnilvpnilvunil"] = {
-			["name"] = "Stick to trimmer control mode",
+			["name"] = "Trimmer",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN3",
@@ -133,10 +126,54 @@ local diff = {
 			},
 		},
 		["dnilp36unilcdnilvdnilvpnilvunil"] = {
-			["name"] = "View Center",
+			["name"] = "Center View",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN5",
+				},
+			},
+		},
+		["dnilp88u235cdnilvdnilvpnilvunil"] = {
+			["name"] = "KU-31 Shkval slew left",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_L",
+					["reformers"] = {
+						[1] = "RAlt",
+					},
+				},
+			},
+		},
+		["dnilp89u235cdnilvdnilvpnilvunil"] = {
+			["name"] = "KU-31 Shkval slew right",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_R",
+					["reformers"] = {
+						[1] = "RAlt",
+					},
+				},
+			},
+		},
+		["dnilp90u235cdnilvdnilvpnilvunil"] = {
+			["name"] = "KU-31 Shkval slew up",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_U",
+					["reformers"] = {
+						[1] = "RAlt",
+					},
+				},
+			},
+		},
+		["dnilp91u235cdnilvdnilvpnilvunil"] = {
+			["name"] = "KU-31 Shkval slew down",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN_POV1_D",
+					["reformers"] = {
+						[1] = "RAlt",
+					},
 				},
 			},
 		},

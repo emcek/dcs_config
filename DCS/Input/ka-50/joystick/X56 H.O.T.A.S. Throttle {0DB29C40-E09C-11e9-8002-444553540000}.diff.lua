@@ -35,7 +35,7 @@ local diff = {
 		["a2087cdnil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_Y",
+					["key"] = "JOY_X",
 				},
 			},
 			["name"] = "Flight Control Collective",

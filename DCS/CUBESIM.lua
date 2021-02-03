@@ -26,7 +26,7 @@ LEFT_MFCD =
 RIGHT_MFCD =
 {
      x = 90;
-     y = 640;
+     y = 620;
      width = 600;
      height = 600;
 }
@@ -42,10 +42,11 @@ F14_HSD =
 F14_VDI =
 {
      x = 90;
-     y = 640;
+     y = 620;
      width = 600;
      height = 600;
 }
+
 
 UIMainView = Viewports.Center
 GU_MAIN_VIEWPORT = Viewports.Center

@@ -1,7 +1,7 @@
 local diff = {
 	["axisDiffs"] = {
 		["a2001cdnil"] = {
-			["name"] = "Pitch Cyclic",
+			["name"] = "Pitch",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_Y",
@@ -9,7 +9,7 @@ local diff = {
 			},
 		},
 		["a2002cdnil"] = {
-			["name"] = "Roll Cyclic",
+			["name"] = "Roll",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_X",
@@ -17,7 +17,7 @@ local diff = {
 			},
 		},
 		["a2003cdnil"] = {
-			["name"] = "Pedals",
+			["name"] = "Rudder",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_RZ",
@@ -25,12 +25,7 @@ local diff = {
 			},
 		},
 		["a2004cdnil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_Y",
-				},
-			},
-			["name"] = "Collective",
+			["name"] = "Throttle Both",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_Z",

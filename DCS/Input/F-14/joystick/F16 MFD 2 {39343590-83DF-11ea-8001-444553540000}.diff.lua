@@ -1,25 +1,23 @@
 local diff = {
 	["axisDiffs"] = {
-		["a2002cdnil"] = {
-			["changed"] = {
+		["a2001cdnil"] = {
+			["name"] = "Pitch",
+			["removed"] = {
 				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0,
-						},
-						["deadzone"] = 0,
-						["invert"] = true,
-						["saturationX"] = 1,
-						["saturationY"] = 1,
-						["slider"] = false,
-					},
+					["key"] = "JOY_Y",
+				},
+			},
+		},
+		["a2002cdnil"] = {
+			["name"] = "Roll",
+			["removed"] = {
+				[1] = {
 					["key"] = "JOY_X",
 				},
 			},
-			["name"] = "Roll Cyclic",
 		},
 		["a2003cdnil"] = {
-			["name"] = "Pedals",
+			["name"] = "Rudder",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_RZ",
@@ -27,7 +25,7 @@ local diff = {
 			},
 		},
 		["a2004cdnil"] = {
-			["name"] = "Collective",
+			["name"] = "Throttle Both",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_Z",
