@@ -47,48 +47,45 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
-		["d350pnilu351cdnilvdnilvpnilvunil"] = {
-			["name"] = "Release weapons",
-			["removed"] = {
+		["d3031pnilunilcd7vd1vpnilvunil"] = {
+			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN2",
+					["key"] = "JOY_BTN29",
 				},
 			},
+			["name"] = "OBSERVE",
 		},
-		["d509pnilu510cdnilvdnilvpnilvunil"] = {
-			["name"] = "Lock target",
-			["removed"] = {
+		["d3066pnilunilcd6vd-1vpnilvunil"] = {
+			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN4",
+					["key"] = "JOY_BTN15",
 				},
 			},
+			["name"] = "Select Station Prev",
 		},
-		["d537pnilu385cdnilvdnilvpnilvunil"] = {
-			["name"] = "Hover On/Off",
-			["removed"] = {
+		["d3066pnilunilcd6vd1vpnilvunil"] = {
+			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN3",
-					["reformers"] = {
-						[1] = "LAlt",
-					},
+					["key"] = "JOY_BTN14",
 				},
 			},
+			["name"] = "Select Station Next",
 		},
-		["d84pnilu85cdnilvdnilvpnilvunil"] = {
-			["name"] = "Gun fire",
-			["removed"] = {
+		["d3079pnilunilcd6vd-1vpnilvunil"] = {
+			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN1",
+					["key"] = "JOY_BTN13",
 				},
 			},
+			["name"] = "Select Weapon Pilot Prev",
 		},
-		["d957pnilu958cdnilvdnilvpnilvunil"] = {
-			["name"] = "Trimmer",
-			["removed"] = {
+		["d3079pnilunilcd6vd1vpnilvunil"] = {
+			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN3",
+					["key"] = "JOY_BTN12",
 				},
 			},
+			["name"] = "Select Weapon Pilot Next",
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
@@ -155,54 +152,10 @@ local diff = {
 			},
 		},
 		["dnilp36unilcdnilvdnilvpnilvunil"] = {
-			["name"] = "Center View",
+			["name"] = "View Center",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN5",
-				},
-			},
-		},
-		["dnilp88u235cdnilvdnilvpnilvunil"] = {
-			["name"] = "KU-31 Shkval slew left",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_L",
-					["reformers"] = {
-						[1] = "RAlt",
-					},
-				},
-			},
-		},
-		["dnilp89u235cdnilvdnilvpnilvunil"] = {
-			["name"] = "KU-31 Shkval slew right",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_R",
-					["reformers"] = {
-						[1] = "RAlt",
-					},
-				},
-			},
-		},
-		["dnilp90u235cdnilvdnilvpnilvunil"] = {
-			["name"] = "KU-31 Shkval slew up",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_U",
-					["reformers"] = {
-						[1] = "RAlt",
-					},
-				},
-			},
-		},
-		["dnilp91u235cdnilvdnilvpnilvunil"] = {
-			["name"] = "KU-31 Shkval slew down",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_D",
-					["reformers"] = {
-						[1] = "RAlt",
-					},
 				},
 			},
 		},

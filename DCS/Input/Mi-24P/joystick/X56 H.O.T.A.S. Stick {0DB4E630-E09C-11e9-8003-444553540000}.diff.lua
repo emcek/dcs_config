@@ -1,20 +1,40 @@
 local diff = {
 	["axisDiffs"] = {
 		["a2001cdnil"] = {
-			["name"] = "Flight Control Cyclic Pitch",
-			["removed"] = {
+			["changed"] = {
 				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0.2,
+						},
+						["deadzone"] = 0.05,
+						["invert"] = false,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
 					["key"] = "JOY_Y",
 				},
 			},
+			["name"] = "Flight Control Cyclic Pitch",
 		},
 		["a2002cdnil"] = {
-			["name"] = "Flight Control Cyclic Roll",
-			["removed"] = {
+			["changed"] = {
 				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0.2,
+						},
+						["deadzone"] = 0.05,
+						["invert"] = true,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
 					["key"] = "JOY_X",
 				},
 			},
+			["name"] = "Flight Control Cyclic Roll",
 		},
 		["a2003cdnil"] = {
 			["name"] = "Flight Control Rudder",
@@ -24,20 +44,7 @@ local diff = {
 				},
 			},
 		},
-		["a2012cdnil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_Z",
-				},
-			},
-			["name"] = "Zoom View",
-		},
 		["a2087cdnil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_Y",
-				},
-			},
 			["name"] = "Flight Control Collective",
 			["removed"] = {
 				[1] = {
@@ -47,29 +54,13 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
-		["d3004pnilu3004cd41vd1vpnilvu0"] = {
-			["name"] = "Pilot Trimmer",
-			["removed"] = {
+		["d3007pnilu3007cd9vd1vpnilvu0"] = {
+			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN3",
+					["key"] = "JOY_BTN_POV1_U",
 				},
 			},
-		},
-		["d3009pnilu3009cd21vd1vpnilvu0"] = {
-			["name"] = "Pilot's radio trigger RADIO",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN1",
-				},
-			},
-		},
-		["d84pnilu84cdnilvd1vpnilvu0"] = {
-			["name"] = "Pilot weapon release/Machinegun fire",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN2",
-				},
-			},
+			["name"] = "Pilot Launch Snars",
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
@@ -136,7 +127,7 @@ local diff = {
 			},
 		},
 		["dnilp36unilcdnilvdnilvpnilvunil"] = {
-			["name"] = "Center View",
+			["name"] = "View Center",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN5",
